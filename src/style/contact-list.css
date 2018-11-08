@@ -1,0 +1,38 @@
+
+.main-div {
+    margin-top: 150px;
+}
+
+
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.th {
+    text-align: center;
+    font-weight: bold;
+}
+.table:hover,
+.table:focus {
+    color: black;
+    text-decoration: none;
+
+}
+
+.tr-data:hover {
+    background-color: #d7d3d3;
+    border-collapse: collapse;
+}
+.tr-data:hover .td-button{
+    visibility: visible;
+}
+.td-button {
+    visibility: hidden;
+}
+
+.button-add {
+    background-color: steelblue;
+    border-color: #61dafb;
+}
