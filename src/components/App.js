@@ -3,7 +3,7 @@ import ContactList from "../containers/contact-list";
 import TopHeader from "../containers/TopHeader";
 
 class App extends Component {
-    render() {
+    render(cds) {
         return (
             <div className="App">
                 <TopHeader/>
@@ -14,3 +14,6 @@ class App extends Component {
 }
 
 export default App;
+
+
+
